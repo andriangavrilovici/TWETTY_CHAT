@@ -1,0 +1,107 @@
+﻿<local:BasePage x:TypeArguments="local:RegisterViewModel" x:Class="TWETTY_CHAT.RegisterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:TWETTY_CHAT"
+      xmlns:core="clr-namespace:TWETTY_CHAT.Core;assembly=TWETTY_CHAT.Core"
+      mc:Ignorable="d" 
+      x:Name="Page"
+      d:DesignHeight="480" d:DesignWidth="360"
+      >
+
+    <Grid >
+        <Border Background="{StaticResource LightBrush}"
+                Width="350" Height="460" 
+                CornerRadius="20">
+            <Grid>
+                <StackPanel >
+                    <TextBlock Style="{Binding Source={StaticResource HeaderText}}"
+                               Text="Inregistreazate"/>
+                    <StackPanel Margin="0 10">
+
+                        <!-- First name -->
+                        <Grid Margin="20 5">
+                            <TextBlock Text="&#xf007;"
+                                Padding="15 10 0 0"
+                                FontFamily="{StaticResource FontAwesomeSolid}"
+                                FontSize="{StaticResource FontSizeLarge}"
+                                Foreground="{StaticResource SilverBrush}"
+                                />
+                            <TextBox x:Name="FirstNameText"
+                                     local:IsFocusedProperty.Value="True"
+                                     Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"
+                                     Tag="Prenume" />
+                        </Grid>
+
+                        <!-- Last name -->
+                        <Grid Margin="20 5">
+                            <TextBlock Text="&#xf007;"
+                                Padding="15 10 0 0"
+                                FontFamily="{StaticResource FontAwesomeSolid}"
+                                FontSize="{StaticResource FontSizeLarge}"
+                                Foreground="{StaticResource SilverBrush}"
+                                />
+                            <TextBox x:Name="LastNameText"
+                                     Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}"
+                                     Tag="Nume" />
+                        </Grid>
+                        <!-- Email -->
+                        <Grid Margin="20 5">
+                            <TextBlock Text="&#xf0e0;"
+                                Padding="15 10 0 0"
+                                FontFamily="{StaticResource FontAwesomeSolid}"
+                                FontSize="{StaticResource FontSizeLarge}"
+                                Foreground="{StaticResource SilverBrush}"
+                                />
+                            <TextBox x:Name="EmailText"
+                                     Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"
+                                     Tag="Email" />
+                        </Grid>
+                        
+                        <!-- Parola -->
+                        <Grid Margin="20 5">
+                            <TextBlock Text="&#xf09c;"
+                                Padding="15 10 0 0"
+                                FontFamily="{StaticResource FontAwesomeSolid}"
+                                FontSize="{StaticResource FontSizeLarge}"
+                                Foreground="{StaticResource SilverBrush}"
+                                />
+                            <PasswordBox x:Name="PasswordText"
+                                         Tag="Parola" />
+                            
+                        </Grid>
+                        <!-- Button Login -->
+                        <Grid Margin="20 5">
+                            <Button x:Name="BtnRegistred" 
+                                    IsDefault="True"
+                                    Style="{StaticResource LoginButton}"
+                                    local:IsBusyProperty.Value="{Binding RegisterIsRunning}"
+                                    Command="{Binding RegisterCommand}"
+                                    CommandParameter="{Binding ElementName=Page}" 
+                                    Content="Inregistrare"/>
+
+                        </Grid>
+                        
+                        <!-- Treci la contul existent -->
+
+                    </StackPanel>
+                    <Grid Background="Transparent" 
+                                   HorizontalAlignment="Center" 
+                                   Margin="0 20 0 0" >
+                        <Button Style="{StaticResource TextButton}"
+                                Command="{Binding LoginCommand}"
+                                FontWeight="Bold"
+                                Content="Am deja un cont"/>
+                        <TextBlock Text="&#xf061;"
+                                Margin="140 0 0 0"
+                                FontFamily="{StaticResource FontAwesomeSolid}"
+                                FontSize="{StaticResource FontSizeSmall}"
+                                Foreground="{StaticResource BlueBrush}"
+                                />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</local:BasePage>

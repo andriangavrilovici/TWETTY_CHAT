@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWETTY_CHAT", "TWETTY_CHAT\TWETTY_CHAT.csproj", "{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWETTY_CHAT.Core", "TWETTY_CHAT.Core\TWETTY_CHAT.Core.csproj", "{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Home_Internet|Any CPU = Home_Internet|Any CPU
+		Home_Internet|x64 = Home_Internet|x64
+		Home_Remote|Any CPU = Home_Remote|Any CPU
+		Home_Remote|x64 = Home_Remote|x64
+		Local|Any CPU = Local|Any CPU
+		Local|x64 = Local|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Somee|Any CPU = Somee|Any CPU
+		Somee|x64 = Somee|x64
+		X64|Any CPU = X64|Any CPU
+		X64|x64 = X64|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Debug|x64.ActiveCfg = Debug|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Debug|x64.Build.0 = Debug|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Internet|Any CPU.ActiveCfg = Home_Internet|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Internet|Any CPU.Build.0 = Home_Internet|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Internet|x64.ActiveCfg = Home_Internet|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Internet|x64.Build.0 = Home_Internet|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Remote|Any CPU.ActiveCfg = Remote_Home|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Remote|Any CPU.Build.0 = Remote_Home|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Remote|x64.ActiveCfg = Remote_Home|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Home_Remote|x64.Build.0 = Remote_Home|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Local|Any CPU.Build.0 = Local|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Local|x64.ActiveCfg = Local|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Local|x64.Build.0 = Local|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Release|x64.ActiveCfg = Release|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Release|x64.Build.0 = Release|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Somee|Any CPU.ActiveCfg = Somee|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Somee|Any CPU.Build.0 = Somee|Any CPU
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Somee|x64.ActiveCfg = Somee|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.Somee|x64.Build.0 = Somee|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.X64|Any CPU.ActiveCfg = X64|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.X64|Any CPU.Build.0 = X64|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.X64|x64.ActiveCfg = X64|x64
+		{6903CCA0-810E-4F78-85B6-65AFCFC0FF38}.X64|x64.Build.0 = X64|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Debug|x64.ActiveCfg = Debug|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Debug|x64.Build.0 = Debug|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Internet|Any CPU.ActiveCfg = Home_Internet|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Internet|Any CPU.Build.0 = Home_Internet|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Internet|x64.ActiveCfg = Home_Internet|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Internet|x64.Build.0 = Home_Internet|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Remote|Any CPU.ActiveCfg = Remote_Home|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Remote|Any CPU.Build.0 = Remote_Home|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Remote|x64.ActiveCfg = Remote_Home|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Home_Remote|x64.Build.0 = Remote_Home|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Local|Any CPU.Build.0 = Local|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Local|x64.ActiveCfg = Local|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Local|x64.Build.0 = Local|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Release|x64.ActiveCfg = Release|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Release|x64.Build.0 = Release|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Somee|Any CPU.ActiveCfg = Somee|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Somee|Any CPU.Build.0 = Somee|Any CPU
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Somee|x64.ActiveCfg = Somee|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.Somee|x64.Build.0 = Somee|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.X64|Any CPU.ActiveCfg = X64|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.X64|Any CPU.Build.0 = X64|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.X64|x64.ActiveCfg = X64|x64
+		{32ED7E95-E25A-4DEA-93BB-26DA3DB6D152}.X64|x64.Build.0 = X64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE707BA-F972-4FF3-B6F4-5FD46FCBD305}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,104 @@
+﻿<local:BasePage x:TypeArguments="local:SettingsViewModel" x:Class="TWETTY_CHAT.InformationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:TWETTY_CHAT"
+      xmlns:core="clr-namespace:TWETTY_CHAT.Core;assembly=TWETTY_CHAT.Core"
+      mc:Ignorable="d" 
+      x:Name="Page"
+      d:DesignHeight="500"
+      d:DesignWidth="800"
+      >
+    <Border Background="{StaticResource GrayBrush}" 
+            Padding="25">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Settings Title -->
+            <Grid Grid.Row="0" 
+                  Height="40" 
+                  Margin="20 0 0 20" 
+                  >
+
+                <!-- Back button -->
+                <Button Style="{StaticResource TextButton}"
+                        Background="{StaticResource GrayBrush}"
+                        Height="40" 
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        Foreground="{StaticResource SelectItemOrangeBrush}"
+                        FontSize="{StaticResource FontSizeXXLarge}"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Command="{Binding CloseCommand}"
+                        Content="&#xf30a;"
+                    />
+
+                <!-- Settings header -->
+                <StatusBar Background="{StaticResource GrayBrush}"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <!-- Cog icon -->
+                    <TextBlock FontFamily="{StaticResource FontAwesomeSolid}"
+                               Foreground="{StaticResource  LightGreenBrush}"
+                               FontSize="{StaticResource FontSizeXLarge}"
+                               Text="&#xf05a;" />
+                <!-- Settings text -->
+                    <TextBlock FontFamily="{StaticResource Trebuchet-MS}"
+                               FontSize="{StaticResource FontSizeXLarge}"
+                               Foreground="{StaticResource LightBrush}"
+                               Text="Informatie" />
+                </StatusBar>
+            </Grid>
+
+            <!-- Main Content -->
+            <Grid Grid.Row="1"
+                  VerticalAlignment="Top" HorizontalAlignment="Center">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource HeaderText}"
+                               FontSize="{StaticResource FontSizeXLarge}"
+                               Margin="2">
+                    Chat [By Gavrilovici] versiune 0.0.1 BETA
+                    </TextBlock>
+
+                    <TextBlock FontFamily="{StaticResource Trebuchet-MS}"
+                               FontSize="{StaticResource FontSizeLarge}"
+                               Foreground="{StaticResource LightBrush}"
+                               Margin="2 20 0 10"
+                               TextWrapping="Wrap">
+                        
+                    Aceasta aplicatie a fost elaborata pentru proiect
+                        de cercetare la teza de licenta. <LineBreak/>
+                        In acest proiect am elaborat o
+                        aplicatie numita <Run Text="Chat [By Gavrilovici]" Foreground="Orange" /> de tip client si
+                        un server folosind limbajul <Run Text="C#" Foreground="Orange" />
+                        și platformele <Run Text=".NET Framework, .NET Core" Foreground="Orange" />  etc.
+                        Aplicatia este in curs de dezvoltare!
+                    </TextBlock>
+
+                    <TextBlock Style="{StaticResource HeaderText}"
+                               FontFamily="{StaticResource Trebuchet-MS}"
+                               FontSize="{StaticResource FontSizeXLarge}"
+                               Foreground="{StaticResource LightGreenBrush}"
+                               Margin="2">
+                        Va multumesc ca ati incercat aplicatia!
+                    </TextBlock>
+                    <TextBlock Style="{StaticResource HeaderText}"
+                               FontFamily="{StaticResource Trebuchet-MS}"
+                               FontSize="{StaticResource FontSizeRegular}"
+                               Foreground="{StaticResource SelectItemOrangeBrush}"
+                               Margin="2">
+                        Daca ati observat greseli in lucru va rog luati legatura cu:<LineBreak/>
+                        Nume: Andrian Gavrilovici <LineBreak/>
+                        Email: andrian.gav@gmail.com <LineBreak/>
+                        Telefon: +37360965765 <LineBreak/>
+                    </TextBlock>
+                </StackPanel>
+                
+            </Grid>
+        </Grid>
+    </Border>
+</local:BasePage>

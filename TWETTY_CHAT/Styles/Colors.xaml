@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TWETTY_CHAT">
+
+    <Color x:Key="ChatBackground">#FFD5D5D5</Color>
+    <SolidColorBrush x:Key="ChatBackgroundBrush" Color="{StaticResource ChatBackground}" />
+
+    <Color x:Key="NewBlue">#0166FF</Color>
+    <SolidColorBrush x:Key="NewBlueBrush" Color="{StaticResource NewBlue}" />
+
+    <Color x:Key="Light">#ffffff</Color>
+    <SolidColorBrush x:Key="LightBrush" Color="{StaticResource Light}" />
+    
+    <Color x:Key="BackgroundDeepSilver">#858C92</Color>
+    <SolidColorBrush x:Key="BackgroundDeepSilverBrush" Color="{StaticResource BackgroundDeepSilver}" />
+
+    <Color x:Key="Black">#000</Color>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+
+    <Color x:Key="Blue">#527DFF</Color>
+    <SolidColorBrush x:Key="BlueBrush" Color="{StaticResource Blue}"/>
+
+    <Color x:Key="LightBlue">#0166FF</Color>
+    <SolidColorBrush x:Key="LightBlueBrush" Color="{StaticResource LightBlue}"/>
+
+    <Color x:Key="Silver">#666666</Color>
+    <SolidColorBrush x:Key="SilverBrush" Color="{StaticResource Silver}"/>
+
+    <Color x:Key="LightSilver">#929292</Color>
+    <SolidColorBrush x:Key="LightSilverBrush" Color="{StaticResource LightSilver}"/>
+
+    <Color x:Key="Green">#399A27</Color>
+    <SolidColorBrush x:Key="GreenBrush" Color="{StaticResource Green}"/>
+
+    <Color x:Key="LightGreen">#18D995</Color>
+    <SolidColorBrush x:Key="LightGreenBrush" Color="{StaticResource LightGreen}"/>
+
+    <Color x:Key="DarkGray">#303841</Color>
+    <SolidColorBrush x:Key="DarkGrayBrush" Color="{StaticResource DarkGray}"/>
+
+    <Color x:Key="Gray">#363E47</Color>
+    <SolidColorBrush x:Key="GrayBrush" Color="{StaticResource Gray}"/>
+
+    <Color x:Key="LightGray">#656F7C</Color>
+    <SolidColorBrush x:Key="LightGrayBrush" Color="{StaticResource LightGray}"/>
+
+    <Color x:Key="HoverItemGray">#FF535D67</Color>
+    <SolidColorBrush x:Key="HoverItemGrayBrush" Color="{StaticResource HoverItemGray}"/>
+
+    <Color x:Key="SelectItemOrange">#EEAA77</Color>
+    <SolidColorBrush x:Key="SelectItemOrangeBrush" Color="{StaticResource SelectItemOrange}"/>
+
+</ResourceDictionary>

@@ -1,0 +1,31 @@
+INFORMATION: [2020-05-31 11:38:44] Entity Framework Core 3.1.2 initialized 'ClientDataBaseDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+INFORMATION: [2020-05-31 11:38:45] Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+INFORMATION: [2020-05-31 11:38:46] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ClientFriends" (
+    "Email" TEXT NOT NULL CONSTRAINT "PK_ClientFriends" PRIMARY KEY,
+    "FirstName" TEXT NULL,
+    "LastName" TEXT NULL,
+    "Status" INTEGER NOT NULL
+);
+INFORMATION: [2020-05-31 11:38:46] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ClientMessages" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_ClientMessages" PRIMARY KEY AUTOINCREMENT,
+    "SendBy_Email" TEXT NULL,
+    "SendTo_Email" TEXT NULL,
+    "Message" TEXT NULL,
+    "MessageSentTime" TEXT NOT NULL
+);
+INFORMATION: [2020-05-31 11:38:46] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "LoginCredentials" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_LoginCredentials" PRIMARY KEY,
+    "Email" TEXT NULL,
+    "FirstName" TEXT NULL,
+    "LastName" TEXT NULL,
+    "Token" TEXT NULL
+);
+INFORMATION: [2020-05-31 11:38:46] Entity Framework Core 3.1.2 initialized 'ClientDataBaseDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+INFORMATION: [2020-05-31 11:38:46] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "l"."Id", "l"."Email", "l"."FirstName", "l"."LastName", "l"."Token"
+FROM "LoginCredentials" AS "l"
+LIMIT 1

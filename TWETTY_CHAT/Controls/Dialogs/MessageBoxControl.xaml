@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="TWETTY_CHAT.MessageBoxControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TWETTY_CHAT"
+             mc:Ignorable="d" 
+             >
+    <Grid Background="Transparent"
+          >
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" FontFamily="{StaticResource Trebuchet-MS}"
+                   Name="MessageTxt"
+                   FontSize="{StaticResource FontSizeXLarge}"
+                   Foreground="{StaticResource LightBrush}"
+                   Margin="20 0 20 0"
+                   Text="Nu ati introdus email-ul sau parola"
+                   />
+        <Button Grid.Row="1"
+                Name="OkBtn"
+                Style="{StaticResource LoginButton}"
+                Background="{StaticResource LightGreenBrush}"
+                IsDefault="True"
+                IsCancel="True"
+                Margin="10 0 10 0"
+                Content="OK"
+                Click="Button_Click"
+                />
+    </Grid>
+</UserControl>

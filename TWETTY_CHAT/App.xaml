@@ -1,0 +1,15 @@
+﻿<Application x:Class="TWETTY_CHAT.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TWETTY_CHAT">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Buttons.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Colors.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Fonts.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Texts.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

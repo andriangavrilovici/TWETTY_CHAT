@@ -1,0 +1,20 @@
+﻿CHAT By Gavrilovici
+
+
+winexe
+C#
+.cs
+C:\Users\andri\Programming\C_Sharp\TWETTY_CHAT\TWETTY_CHAT\obj\Local\
+TWETTY_CHAT
+none
+false
+DEBUG;TRACE
+C:\Users\andri\Programming\C_Sharp\TWETTY_CHAT\TWETTY_CHAT\App.xaml
+201779182429
+5-1778895063
+75-630755238
+186-525812157
+Controls\Chat\ChatMessage\ChatMessageListItemControl.xaml;Controls\Chat\ChatMessage\ChatMessageListControl.xaml;Controls\Chat\ChatList\ChatListControl.xaml;Controls\Chat\ChatList\ChatListItemControl.xaml;Controls\Dialogs\MessageBoxControl.xaml;Controls\PageHost.xaml;Controls\Dialogs\PreloaderControl.xaml;Controls\SideMenuControl.xaml;DialogWindow.xaml;MainWindow.xaml;MessageBoxResultCustom.xaml;Pages\InformationPage.xaml;Pages\SettingsPage.xaml;Pages\ChatPage.xaml;Pages\LoginPage.xaml;Pages\RegisterPage.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Styles\Texts.xaml;
+
+True
+
